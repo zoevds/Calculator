@@ -1,0 +1,28 @@
+#output {
+  border: 2px solid cornflowerblue;
+  height: 150px;
+  border-radius: 8px;
+}
+
+
+}
+element.style {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+button {
+  background-color: black;
+  color: cornflowerblue;
+  aspect-ratio: 1;
+  width: 25%;
+  padding: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+.calculator {
+max-width: 450px;
+margin-inline: auto;
+}
