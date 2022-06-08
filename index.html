@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div class="calculator">
-        <div id="output">28096</div>
+        <div id="output"></div>
         <div class="button-container">
-        <button class="purple"> AC</button>
-        <button class="purple"> +/-</button>
-        <button class="purple"> %</button>
-        <button class="blue">÷</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="blue">X</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="blue">-</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class="blue">+</button>
-        <button>0</button>
-    
-        <button>. </button>
-        <button class="blue"> =</button>
+        <button onclick="buildsum('AC')" class="purple"> AC</button>
+        <button onclick="buildsum('+/-')" class="purple"> +/-</button>
+        <button onclick="buildsum('%')" class="purple"> %</button>
+        <button onclick="buildsum('÷')" class="blue">÷</button>
+        <button onclick="buildsum('7')">7</button>
+        <button onclick="buildsum('8')">8</button>
+        <button onclick="buildsum('9')">9</button>
+        <button onclick="buildsum('X')" class="blue">X</button>
+        <button onclick="buildsum('4')">4</button>
+        <button onclick="buildsum('5')">5</button>
+        <button onclick="buildsum('6')">6</button>
+        <button onclick="buildsum('-')" class="blue">-</button>
+        <button onclick="buildsum('1')">1</button>
+        <button onclick="buildsum('2')">2</button>
+        <button onclick="buildsum('3')">3</button>
+        <button onclick="buildsum('+')" class="blue">+</button>
+        <button onclick="buildsum('0')">0</button>
+        <button onclick="buildsum('.')">. </button>
+        <button onclick='clear_inputs()'>Clear</button>
+        <button onclick="calculate()" class="blue"> =</button>
+       
         </div>
+<script src="./index.js"></script>
 </body>
 </html>

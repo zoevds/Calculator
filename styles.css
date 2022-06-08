@@ -4,6 +4,7 @@ body {
   min-height: 2em;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  /* border-radius: 50%; */
 }
 #output {
   height: 75px;
